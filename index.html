@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Store</title>
 </head>
 <body>
-    This will be a STORE PROJECT
+    <h2>Store Cart</h2>
+    <br>
+    <div class="container">
+        <form class="Form">
+            <select id="categorySelect" onChange="showProducts()">
+                <option value="">Select the type of the product</option>
+                <option value="tv">TV</option>
+                <option value="cellphone">Cellphone</option>
+                <option value="notebook">Notebook</option>
+            </select>
+
+            <div id="productList" class="imageProducts" style="display:none">
+
+            </div>
+
+            <div id="cart" class="cart">
+                <img class="cartImage" src="images/cart.png">
+                <h3>Shopping Cart</h3>
+                <ul id="cartItems">
+                    
+                </ul>
+            </div>
+            
+        </form>
+    </div>
+        <script src="script.js"></script>
+
 </body>
-</html>
+</html> 
+
+
