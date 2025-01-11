@@ -21,4 +21,4 @@ The **Store Cart** is a web application designed to help me refresh and practice
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/shopping-cart-simulator.git
+   git clone https://github.com/marciomdsj/shopping-cart-simulator.git
